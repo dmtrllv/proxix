@@ -1,0 +1,6 @@
+**/cjs
+**/esm
+**/types
+**/test
+**/node_modules
+**/*.tgz

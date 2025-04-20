@@ -1,0 +1,48 @@
+{
+	"name": "proxix",
+	"version": "0.0.1",
+	"description": "A simple react state management library based on proxies!",
+	"type": "module",
+	"types": "./types",
+	"scripts": {
+		"build": "tsc && tsc --module \"CommonJS\" -t \"es6\" --outDir \"./cjs\""
+	},
+	"keywords": [
+		"react",
+		"state",
+		"state management",
+		"proxy"
+	],
+	"author": {
+		"name": "Dimitri Lilov",
+		"email": "dev.dmtrllv@gmail.com"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"@tsconfig/strictest": "^2.0.5",
+		"@types/react": "^19.1.2",
+		"@types/react-dom": "^19.1.2",
+		"typescript": "^5.8.3"
+	},
+	"dependencies": {
+		"react": "^19.1.0",
+		"react-dom": "^19.1.0"
+	},
+	"files": [
+		"esm",
+		"cjs",
+		"types",
+		"package.json",
+		"package-lock.json",
+		"README.md",
+		"tsconfig.json",
+		"LICENSE"
+	],
+	"exports": {
+		".": {
+			"types": "./types/index.d.ts",
+			"require": "./cjs/index.js",
+			"import": "./esm/index.js"
+		}
+	}
+}

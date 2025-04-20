@@ -1,0 +1,24 @@
+{
+	"compilerOptions": {
+		"module": "esnext",
+		"target": "esnext",
+		"lib": [
+			"esnext",
+			"dom"
+		],
+		"declaration": true,
+		"strict": true,
+		"moduleResolution": "node",
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"experimentalDecorators": true,
+		"outDir": "./esm",
+		"rootDir": "./src",
+		"declarationDir": "./types"
+	},
+	"include": [
+		"src/**/*"
+	],
+	"extends": "@tsconfig/strictest/tsconfig.json"
+}
