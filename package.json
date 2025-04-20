@@ -17,6 +17,10 @@
 		"name": "Dimitri Lilov",
 		"email": "dev.dmtrllv@gmail.com"
 	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/dmtrllv/proxix"
+	},
 	"license": "MIT",
 	"devDependencies": {
 		"@tsconfig/strictest": "^2.0.5",
